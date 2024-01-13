@@ -2,26 +2,24 @@
 using namespace std;
 
 
-string divisible(){
+void divisible(){
 	
 	int x;
 	cin>>x;
 	
 	if(x % 3 == 0){
 		
-		return "Yes, It's Divisible!";
+		printf ("Yes, %d is Divisible by 3!",x);
 	}
 	
 	else{
-		return "No,It's not Divisible.";
+		printf ("No, %d is not Divisible by 3.",x);
 	}
 }
 
 int main() {
 	
-	cout<<divisible()<<endl;
+	divisible();
 	
 	return 0;
 }
-
-
